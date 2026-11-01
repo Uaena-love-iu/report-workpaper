@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "demo": true,
+  "as_of": "2026-11-01",
+  "sheets": [{
+    "label": "3.4",
+    "rows": [
+      {"id":"3.4-P1-S1","text":"示例公司持续投入品牌建设。","status":"support","sources":[{"title":"合成资料：格式演示专用","url":"https://example.com/demo-report.pdf","source_class":"synthetic_demo","kind":"synthetic_demo","location":"演示第1页（非真实来源）","collected_at":"2026-11-01","image":"source.png","verified":true}]},
+      {"id":"3.4-P2-S1","text":"示例公司的全部出售金额8万元均来自项目甲。","status":"correction","note":"合成资料显示项目甲5万元、项目乙3万元；8万元为合计，不能当作单项。","suggestion":"示例公司出售合计8万元，其中项目甲5万元。","sources":[{"title":"合成表格：单项与合计的区别","url":"https://example.com/demo-report.pdf","source_class":"synthetic_demo","kind":"synthetic_demo","location":"演示表格（非真实来源）","collected_at":"2026-11-01","image":"source.png","verified":true}]},
+      {"id":"3.4-P3-S1","text":"我们认为，品牌建设有望增强公司长期竞争力。","status":"analysis","note":"属于方向性判断，不能由投入事实直接推出盈利或估值必然改善。","sources":[]},
+      {"id":"3.4-P4-S1","text":"示例公司的同行财务数据由使用者补充原始截图。","status":"deferred_ifind","user_deferred":true,"note":"演示约定：由使用者自行提供iFinD原始数据截图，不填造数据。","sources":[]}
+    ],
+    "tables":[{
+      "title":"合成产品矩阵：仅展示原生表格样式",
+      "kind":"product",
+      "columns":[{"title":"产品系列","span":2,"role":"series"},{"title":"产品图片","span":2},{"title":"产品名称及货号","span":4},{"title":"功能与材质（虚构）","span":4},{"title":"原价（元）","span":2,"format":"0.00"},{"title":"到手价（元）","span":2,"format":"0.00"}],
+      "rows":[["示例系列",{"image":"product.png"},"演示产品A / DEMO-A","仅用于格式演示",100,80],["示例系列",{"image":"product.png"},"演示产品B / DEMO-B","仅用于格式演示",150,120],["示例系列",{"image":"product.png"},"演示产品C / DEMO-C","仅用于格式演示",200,null]]
+    }]
+  }]
+}

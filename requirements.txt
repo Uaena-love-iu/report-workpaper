@@ -1,0 +1,5 @@
+openpyxl>=3.1,<4
+Pillow>=10,<13
+lxml>=5,<7
+
+# Optional: pip install playwright pdfplumber pypdfium2

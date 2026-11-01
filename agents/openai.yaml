@@ -1,0 +1,6 @@
+interface:
+  display_name: "研报底稿 · 可编辑原文与来源截图"
+  short_description: "按现有底稿版式逐句核查来源，保留双页码、红框截图与修改边界"
+  default_prompt: "使用 $report-workpaper，按我的最新底稿格式逐句核查指定章节，保留原文、来源链接、双页码和截图，只修改授权工作表。"
+policy:
+  allow_implicit_invocation: true

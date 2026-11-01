@@ -1,0 +1,8 @@
+{
+  "profile": "analyst-native-evidence", "version": 1,
+  "grid": {"column_px": 64, "row_px": 20, "show_grid_lines": false},
+  "report": {"columns": 9, "font": "等线", "font_pt": 11, "minimum_rows": 14, "horizontal": "center", "vertical": "center"},
+  "evidence": {"columns": 9, "image_width_px": 576, "title_font_pt": 11, "metadata_font_pt": 10, "note_font_pt": 10, "image_gap_px": 10},
+  "colors": {"text": "111111", "link": "0563C1", "note": "555555", "correction": "9C0006", "pending": "777777", "separator": "000000", "table_header": "2F5597", "table_header_text": "FFFFFF", "product_series": "B4C6E7"},
+  "table": {"font": "等线", "font_pt": 11, "product_font": "楷体"}
+}
